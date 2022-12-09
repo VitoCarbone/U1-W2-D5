@@ -10,10 +10,7 @@ REGOLE
     Dato il seguente array, scrivi del codice per stampare ogni elemento dell'array in console.
 */
 const pets = ['dog', 'cat', 'hamster', 'redfish'];
-console.log (pets[0]);
-console.log (pets[1]);
-console.log (pets[2]);
-console.log (pets[3]);
+                   
 
 const pets = ['dog', 'cat', 'hamster', 'redfish']
 for (let i = 0; i < pets.length; i++) {
@@ -41,7 +38,7 @@ console.log (pets);
      il primo elemento dall'array "pets" in ultima posizione.
 */
 pets.shift();
-
+pets
 /* ESERCIZIO 5
     Dato il seguente array di oggetti, 
     scrivi del codice per aggiungere ad ognuno di essi una proprietà "licensePlate"
@@ -90,7 +87,8 @@ for(i=0; i<cars.length;i++){
 console.log(cars)
 
 /* ESERCIZIO 7
-    Scrivi del codice per salvare il primo elemento della proprietà "trims" di ogni auto nel nuovo array "justTrims", sotto definito.
+    Scrivi del codice per salvare il primo elemento della proprietà "trims" 
+    di ogni auto nel nuovo array "justTrims", sotto definito.
 */
 const justTrims = [];
 for (i = 0; i < cars.length; i++) {
@@ -103,7 +101,14 @@ console.log(justTrims);
    in console. Se la prima lettera della proprietà
     "color" ha valore "b", mostra in console "Fizz". Altrimenti, mostra in console "Buzz".
 */
-
+for(i=0;i<cars.length; i++){
+  if(cars[i].color.charAt(0)=="b"){
+    console.log("Frizz";)
+    else {
+      console.log("Buzz");
+    }
+  }
+}
 
 /* ESERCIZIO 9
     Utilizza un ciclo while per stampare in console i valori del seguente array numerico
