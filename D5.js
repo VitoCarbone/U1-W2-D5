@@ -40,7 +40,7 @@ console.log (pets);
     Scrivi del codice per spostare
      il primo elemento dall'array "pets" in ultima posizione.
 */
-
+pets.shift();
 
 /* ESERCIZIO 5
     Dato il seguente array di oggetti, 
@@ -99,19 +99,23 @@ for (i = 0; i < cars.length; i++) {
 console.log(justTrims);
 
 /* ESERCIZIO 8
-    Cicla l'array "cars" e costruisci un if/else statament per mostrare due diversi messaggi in console. Se la prima lettera della proprietà
+    Cicla l'array "cars" e costruisci un if/else statament per mostrare due diversi messaggi
+   in console. Se la prima lettera della proprietà
     "color" ha valore "b", mostra in console "Fizz". Altrimenti, mostra in console "Buzz".
 */
 
+
 /* ESERCIZIO 9
-    Utilizza un ciclo while per stampare in console i valori del seguente array numerico fino al raggiungimento del numero 32.
+    Utilizza un ciclo while per stampare in console i valori del seguente array numerico
+   fino al raggiungimento del numero 32.
 */
 const numericArray = [
   6, 90, 45, 75, 84, 98, 35, 74, 31, 2, 8, 23, 100, 32, 66, 313, 321, 105,
 ]
 
 /* ESERCIZIO 10
-    Partendo dall'array fornito e utilizzando un costrutto switch, genera un nuovo array composto dalle posizioni di ogni carattere all'interno
+    Partendo dall'array fornito e utilizzando un costrutto switch, 
+    genera un nuovo array composto dalle posizioni di ogni carattere all'interno
     dell'alfabeto italiano.
     es. [f, b, e] --> [6, 2, 5]
 */
