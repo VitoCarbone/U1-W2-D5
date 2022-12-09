@@ -103,7 +103,7 @@ console.log(justTrims);
 */
 for(i=0;i<cars.length; i++){
   if(cars[i].color.charAt(0)=="b"){
-    console.log("Frizz";)
+    console.log("Frizz");
     else {
       console.log("Buzz");
     }
