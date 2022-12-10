@@ -1,0 +1,75 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e9edee;
+
+}
+header{
+    background-color: #222f3f;
+}
+header img{
+    padding: 1px;
+    padding-inline: 2px;
+}
+header div{
+    background-color:#364759;
+}
+header button{
+    background-color: #364759;
+    color: white;
+    border:none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main div.arancio{
+    background-color:#f56600 ;
+    text-align: center;
+    color: white;
+}
+div.primaimg{
+    background-image: url(./assets/bg-image.png);
+    background-size: 100%;
+    color: white;
+    text-align: center;
+}
+div.primaimg h3{
+    background-image: url(./assets/bg-image.png);
+    background-size: 100%;
+    color: white;
+    text-align: center;
+}
+section img{
+    background-color: white;
+    width: 20%;
+    object-fit: cover;
+    height: 100%;
+    margin-inline: 2em;
+    border-radius: 10%;
+    box-shadow: gray;
+
+}
+section{ 
+    background-color: white;
+    margin-top: 2em;
+    height: 400px;
+    margin-bottom: 2em;
+    padding-bottom: 5em;
+    padding-inline: 2em;
+}
+aside img{
+    width: 100%;
+}
+aside{
+    text-align: center;
+}
+footer{ 
+    background-color: #222f3f;
+    
+
+}
+footer div{
+    background-color:#364759 ;
+    color: white;
+}
+footer div a{
+    color: white;
+    text-align: center;
+}
