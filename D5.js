@@ -120,7 +120,7 @@ const numericArray = [
   6, 90, 45, 75, 84, 98, 35, 74, 31, 2, 8, 23, 100, 32, 66, 313, 321, 105,
 ]
 let i=0;
-while (numericArray[i] !==100){
+while (numericArray[i] !==32){
   console.log(numericArray[i]);
   i++;
 }
@@ -130,5 +130,100 @@ while (numericArray[i] !==100){
     genera un nuovo array composto dalle posizioni di ogni carattere all'interno
     dell'alfabeto italiano.
     es. [f, b, e] --> [6, 2, 5]
-*/
-const charactersArray = ["g", "n", "u", "z", "d"]
+
+const charactersArray = ["g", "n", "u", "z", "d"]*/
+
+const charactersArray = ["g", "n", "u", "z", "d"];
+const positions = [];
+let i = 0;
+while (i < charactersArray.length) {
+  switch (charactersArray[i]) {
+    case "a":
+      positions.push(1);
+      i++;
+      break;
+    case "b":
+      positions.push(2);
+      i++;
+      break;
+    case "c":
+      positions.push(3);
+      i++;
+      break;
+    case "d":
+      positions.push(4);
+      i++;
+      break;
+    case "e":
+      positions.push(5);
+      i++;
+      break;
+    case "f":
+      positions.push(6);
+      i++;
+      break;
+    case "g":
+      positions.push(7);
+      i++;
+      break;
+    case "h":
+      positions.push(8);
+      i++;
+      break;
+    case "i":
+      positions.push(9);
+      i++;
+      break;
+    case "l":
+      positions.push(10);
+      i++;
+      break;
+    case "m":
+      positions.push(11);
+      i++;
+      break;
+    case "n":
+      positions.push(12);
+      i++;
+      break;
+    case "o":
+      positions.push(13);
+      i++;
+      break;
+    case "p":
+      positions.push(14);
+      i++;
+      break;
+    case "q":
+      positions.push(15);
+      i++;
+      break;
+    case "r":
+      positions.push(16);
+      i++;
+      break;
+    case "s":
+      positions.push(17);
+      i++;
+      break;
+    case "t":
+      positions.push(18);
+      i++;
+      break;
+    case "u":
+      positions.push(19);
+      i++;
+      break;
+    case "v":
+      positions.push(20);
+      i++;
+      break;
+    case "z":
+      positions.push(21);
+      i++;
+      break;
+    default:
+      positions.push("Dato non trovato");
+  }
+}
+console.log(positions);
